@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:40px;
+}
+
+input {
+    max-width: 110px;
+    padding: 6px;
+}
+
+button,
+select {
+    padding: 8px 10px;
+    margin: 4px;
+}
+
+.error-message {
+    color: #a11919;
+    font-weight: 600;
+}
+
+#ganttChart{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+}
+
+.gantt-block{
+    padding:12px;
+    border:1px solid #333;
+    background:#dcecff;
+    min-width: 90px;
+    text-align: center;
+}
+
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.results-table th,
+.results-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.results-table th {
+    background-color: #f5f5f5;
+}
+
+.averages {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #eef7ff;
+    border: 1px solid #bcdcff;
+    border-radius: 6px;
+}
